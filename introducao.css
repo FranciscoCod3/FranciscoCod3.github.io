@@ -9,9 +9,10 @@
 }
 
 .introducao h1{
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 1.125;
     position: relative;
+    padding-bottom: 20px;
 }
 
 .introducao h1::before{
@@ -56,7 +57,7 @@
     }
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
     .introducao{
         grid-template-columns: 1fr;
     }
