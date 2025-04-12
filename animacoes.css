@@ -34,17 +34,21 @@
   }
 }
 
-/* Animações aplicadas */
-header {
+/* Aplicação das animações às classes */
+
+/* Header */
+.header {
   animation: slideDownFade 1s ease forwards;
 }
 
-main {
+/* Main */
+.main-content {
   animation: zoomFade 1.2s ease forwards;
   animation-delay: 0.3s;
 }
 
-#formacao {
+/* Formação */
+.formacao {
   animation: slideUpFade 1s ease forwards;
   animation-delay: 0.6s;
 }
