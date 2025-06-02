@@ -8,6 +8,9 @@
     
 }
 
+.nome{
+    font-size: 1.125rem;
+}
 .header-menu{
     display: flex;
     flex-wrap: wrap;
